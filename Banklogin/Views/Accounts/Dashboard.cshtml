@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+}
+
+
+
+<h2>Welcome to Dashboard</h2>
+
+<p>Here are your account-related activities:</p>
+
+@* <div class="btn-group" role="group" aria-label="Account Activities">
+    <a href="/Profile" class="btn btn-primary">View Profile</a>
+    <a href="/EditProfile" class="btn btn-primary">Edit Profile</a>
+    <a href="/ChangePassword" class="btn btn-primary">Change Password</a>
+    <!-- Add more buttons for other account-related activities as needed -->
+</div> *@
+
+<form asp-action="Logout" method="post" class="mt-3">
+    <button type="submit" class="btn btn-danger">Logout</button>
+</form>
